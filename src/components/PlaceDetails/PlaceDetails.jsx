@@ -91,6 +91,13 @@ const PlaceDetails = ({ place }) => {
           >
             Trip Advisor
           </Button>
+          <Button
+            size="small"
+            color="primary"
+            onClick={() => window.open(place.website, "_blank")}
+          >
+            Website
+          </Button>
         </CardActions>
       </CardContent>
     </Card>
