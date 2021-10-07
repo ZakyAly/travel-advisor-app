@@ -6,7 +6,7 @@ import Rating from "@material-ui/lab/Rating";
 
 import useStyles from "./styles.js";
 
-const Map = ({ setCoordinates, setBounds, coordinates, places, i }) => {
+const Map = ({ setCoordinates, setBounds, coordinates, places }) => {
   const classes = useStyles();
   const isDesktop = useMediaQuery("(min-width:600px)");
 
@@ -27,7 +27,7 @@ const Map = ({ setCoordinates, setBounds, coordinates, places, i }) => {
         }}
         onChildClick={""}
       >
-        {places?.map((place) => (
+        {places?.map((place, i) => (
           <div
             className={classes.markerContainer}
             lat={Number(place.latitude)}
@@ -54,6 +54,7 @@ const Map = ({ setCoordinates, setBounds, coordinates, places, i }) => {
                   }
                   alt={place.name}
                 />
+                <Rating size="small" value={Number(place.rating)} readOnly />
               </Paper>
             )}
           </div>
