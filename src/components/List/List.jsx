@@ -2,7 +2,7 @@ import React, { useState, useEffect, createRef } from "react";
 import {
   CircularProgress,
   Grid,
-  Typogtaphy,
+  // Typogtaphy,
   InputLabel,
   MenuItem,
   FormControl,
@@ -32,7 +32,7 @@ const List = ({
       .map((_, i) => elRefs[i] || createRef());
 
     setElRefs(refs);
-  }, [places]);
+  }, [elRefs, places]);
 
   return (
     <div className={classes.container}>
