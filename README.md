@@ -9,3 +9,5 @@ In the project directory, you can run:
 ### `npm i`
 
 ### `npm start`
+
+Soon, will try to update the APIs for better performance!
