@@ -15,10 +15,7 @@ import Rating from "@material-ui/lab/Rating";
 
 import useStyles from "./styles.js";
 
-const PlaceDetails = ({ place, selected, refProp }) => {
-  if (selected)
-    refProp?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-
+const PlaceDetails = ({ place }) => {
   const classes = useStyles();
 
   return (
