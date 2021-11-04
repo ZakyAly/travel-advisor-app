@@ -2,7 +2,6 @@ import React, { useState, useEffect, createRef } from "react";
 import {
   CircularProgress,
   Grid,
-  // Typogtaphy,
   InputLabel,
   MenuItem,
   FormControl,
@@ -24,6 +23,7 @@ const List = ({
   setRating,
 }) => {
   const classes = useStyles();
+
   const [elRefs, setElRefs] = useState([]);
 
   useEffect(() => {
@@ -72,11 +72,11 @@ const List = ({
           </FormControl>
           <Grid container spacing={3} className={classes.list}>
             {places?.map((place, i) => (
-              <Grid ref={elRefs[i]} item key={i} xs={12}>
+              <Grid item key={i} xs={12}>
                 <PlaceDetails
+                  place={place}
                   selected={Number(childClicked) === i}
                   refProp={elRefs[i]}
-                  place={place}
                 />
               </Grid>
             ))}
