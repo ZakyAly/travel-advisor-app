@@ -1,13 +1,30 @@
 # Travel Advisor App
 
-Build and Deploy an advanced Travel Companion Application using Google Maps. With Geolocation, Google Maps API, Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs, data filtering and much more
+[travel-advisor-demo.netlify.app](travel-advisor-demo.netlify.app)
 
-## Available Scripts
+This advanced application helps you to find Restaurants, Hotels, and Attractions.
 
-In the project directory, you can run:
+Accomplished by using [Google Maps](https://maps.google.com/), [GoogleMapsApis](https://console.cloud.google.com/google/maps-apis/), and [RapidAPI "Travel-Advisor-Api"](https://rapidapi.com/apidojo/api/travel-advisor/) with [Geolocation](https://developers.google.com/maps/documentation/javascript/geolocation).
 
-### `npm i`
+### Features:
 
-### `npm start`
+- Starting with places around your location. Or you can pick the location by moving the map yourself.
+- Select your choices from the options menu and you will get the places with a lot of details (address, average prices ... etc).
+- Including Links to the place website and Tripadvisor reviews.
 
-Soon, will try to update the APIs for better performance!
+### Setup:
+
+- You will need to setup `npm` or `yarn`.
+- Downlonad the project `git clone https://github.com/ZakyAly/travel-advisor-app.git`
+- In the project directory, you can run `npm install` or `yarn install`.
+- Start the development mode by `npm start` or `yarn run`
+
+### Known Bugs:
+
+- RapidAPI is broken after a few minutes of running the project!
+
+### ToDo:
+
+- Finishing the 'Search' feature, the user can choose between cities around the world by typing the city name in the search box.
+- Choose the place on the map, the user can select the place on the map and it will show the place details in a list of places.
+- RapidAPI should be replaced with another one with better performance
