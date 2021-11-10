@@ -4,7 +4,12 @@
 
 This advanced application helps you to find Restaurants, Hotels, and Attractions.
 
-Accomplished by using [Google Maps](https://maps.google.com/), [GoogleMapsApis](https://console.cloud.google.com/google/maps-apis/), and [RapidAPI "Travel-Advisor-Api"](https://rapidapi.com/apidojo/api/travel-advisor/) with [Geolocation](https://developers.google.com/maps/documentation/javascript/geolocation).
+Accomplished by using:
+
+- [Google Maps](https://maps.google.com/)
+- [GoogleMapsApis](https://console.cloud.google.com/google/maps-apis/)
+- [RapidAPI "Travel-Advisor-Api"](https://rapidapi.com/apidojo/api/travel-advisor/)
+- [Geolocation](https://developers.google.com/maps/documentation/javascript/geolocation).
 
 ### Features:
 
@@ -17,6 +22,11 @@ Accomplished by using [Google Maps](https://maps.google.com/), [GoogleMapsApis](
 - You will need to setup `npm` or `yarn`.
 - Downlonad the project `git clone https://github.com/ZakyAly/travel-advisor-app.git`
 - In the project directory, you can run `npm install` or `yarn install`.
+- Create `.env` file with your own API keys
+
+  - `REACT_APP_GOOGLE_MAPS_API_KEY= put your APIkey here`
+  - `REACT_APP_RAPIDAPI_KEY= put your APIkey here`
+
 - Start the development mode by `npm start` or `yarn run`
 
 ### Known Bugs:
