@@ -1,6 +1,6 @@
 # Travel Advisor App
 
-[travel-advisor-demo.netlify.app](travel-advisor-demo.netlify.app)
+##### Visit [travel-advisor-demo.netlify.app](travel-advisor-demo.netlify.app)
 
 This advanced application helps you to find Restaurants, Hotels, and Attractions.
 
