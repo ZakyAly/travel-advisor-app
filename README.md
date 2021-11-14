@@ -37,4 +37,5 @@ Accomplished by using:
 
 - Finishing the 'Search' feature, the user can choose between cities around the world by typing the city name in the search box.
 - Choose the place on the map, the user can select the place on the map and it will show the place details in a list of places.
-- RapidAPI should be replaced with another one with better performance
+- RapidAPI should be replaced with another one with better performance.
+- Complete the getWeather feature.
